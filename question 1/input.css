@@ -1,0 +1,25 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+    form {
+        @apply max-w-[352px] sm:w-[352px] bg-white rounded-sm border-2 px-10 py-3 flex flex-col;
+    }
+    
+    input[type="text"] {
+        @apply bg-gray-100 border-2 w-full text-sm text-gray-600 my-1 rounded-sm h-10 p-3;
+    }
+
+    input[type="text"]:focus {
+        @apply outline-none box-border border-[1px] p-[10px] border-gray-400;
+    }
+
+    a {
+        @apply bg-blue-300 w-full rounded-sm text-base text-white text-center p-1 my-2
+    }
+
+    .tab {
+        @apply text-gray-400 text-xs font-medium cursor-pointer;
+    }
+}

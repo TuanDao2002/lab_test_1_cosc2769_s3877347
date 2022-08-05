@@ -1,0 +1,18 @@
+* {
+    margin: 5px;
+    box-sizing: border-box;
+}
+
+table,
+tr,
+td,
+th {
+    border: 1px black solid;
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+td {
+    min-width: 200px;
+    text-align: center;
+}
